@@ -1,37 +1,45 @@
 ## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Aberche/ExamenCss1-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Aberche/ExamenCss1-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requiero evaliacion para primeros pasos de html</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+    <div class="site">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+  <header class="masthead">
+            <h2 class="site-title">Standard two-column layout</h2>
+        </header><!-- .masthead -->
+    
+   <main id="content" class="main-content">
+            <h2>Main content area</h2>
+            <p>The main content area is where the magic happens. Right now, the main content is on the left and the sidebar is on the right. If you go into the markup for this document and add <code>dir="rtl"</code> to the <code>html</code> element, the two elements will swap spaces because CSS Grid honors text direction.</p>
+        </main>
+    
+   <aside class="sidebar">
+            <h3>The Sidebar</h3>
+            <p>The sidebar typically contains things like:</p>
+            <ul>
+                <li>Links</li>
+                <li>Menus</li>
+                <li>Ads</li>
+            </ul>
+        </aside>
+    
+ <aside class="twin">
+            This should take up half the space
+        </aside>
+        <aside class="twin">
+            This should take up the other half of the space
+        </aside>
+    
+   <footer class="colophon grid">
+            <aside>Content, layout, design: <a href="https://twitter.com/mor10" target="_blank" rel="nofollow">Morten Rand-Hendriksen</a>.</aside>
+        </footer>
+    
+  </div>
+</body>
+</html>
